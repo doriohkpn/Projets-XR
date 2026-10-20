@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="22615" appversion="8.0.6" hassounds="1" start="node1">
+  <panorama id="node1">
+    <input height="3000" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="3000">
+      <level height="3000" predecode="0" preload="0" width="3000"/>
+      <level height="1500" predecode="0" preload="0" width="1500"/>
+      <level height="750" predecode="1" preload="1" width="750"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-08-20T11:18:05" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node1" source="" tags="Downloads" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="Je suis un montagne inutile" id="Point01" pan="-171.13" skinid="ht_info" target="" tilt="2.01" title="Montagne" url="images/image_1.png"/>
+      <hotspot description="" id="Point02" pan="4.54" skinid="ht_node" target="-40.5/-2.1/97.3" tilt="-1.24" title="" url="{node2}"/>
+    </hotspots>
+    <media>
+      <sound ambientlevel="0.000" field="90.000" id="Element01" level="1.000" loop="-1" mode="2" nodechangekeep="1" pan="-144.880" pansize="10.000" startmutedmobile="0" tilt="-8.270" tiltsize="10.000">
+        <source mono="0" url="media/temoin-1.mp3"/>
+      </sound>
+    </media>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="320" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="320">
+      <level height="320" predecode="1" preload="1" width="320"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-08-20T21:12:41" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node2" source="" tags="Desktop" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="-180" tilt="-34.3063"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="180" scaletofit="0" tilt="34.3063"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-37.75" skinid="ht_node" target="0.0/0.0/100.0" tilt="-6.75" title="" url="{node1}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{55ee96f6-2a87-4298-818c-94482c804d28}"/>
+    <autorotate delay="3.00" enabled="1" horizonfromdefview="0" nodedelay="0.00" nodefilter="" noderandom="1" returntohorizon="0.000" speed="0.050" startloaded="0" useanimation="0"/>
+    <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
+    <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
+    <vr defaulthsscale="100" handtracking="3" skinbuttonposition="0" toggleskinbutton="1"/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+    <hotspots smoothmovement="0">
+      <label background="1" backgroundalpha="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" borderradius="1" enabled="1" height="20" textalpha="1" textcolor="0x000000" width="180" wordwrap="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0"/>
+    </hotspots>
+  </masternode>
+</tour>
