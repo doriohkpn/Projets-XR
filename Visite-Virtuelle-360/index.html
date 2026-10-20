@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<title>Visite Virtuelle — CeGPA UAC</title>
+		<title>Visite Virtuelle Immersive (WebXR / 360°)</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		<meta property="og:title" content="Visite Virtuelle — CeGPA UAC">
-		<meta property="og:description" content="Centre de Gestion du Patrimoine Muséal et des Arts">
+		<meta property="og:title" content="Visite Virtuelle â€” CeGPA UAC">
+		<meta property="og:description" content="Centre de Gestion du Patrimoine MusÃ©al et des Arts">
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta property="og:image" content="preview.jpg">
 		<style type="text/css" title="Default">
@@ -35,7 +35,7 @@
 			}
 
 			/* ==========================================================
-			   ÉCRAN D'ACCUEIL CeGPA-UAC (Fond marron 75% d'opacité)
+			   Ã‰CRAN D'ACCUEIL CeGPA-UAC (Fond marron 75% d'opacitÃ©)
 			   ========================================================== */
 			#splash-screen {
 				position: fixed;
@@ -112,7 +112,7 @@
 				transform: scale(0.97);
 			}
 
-			/* Effet d'expansion vers l'avant lors de l'entrée dans la visite */
+			/* Effet d'expansion vers l'avant lors de l'entrÃ©e dans la visite */
 			#splash-screen.splash-hidden #splash-logo {
 				transform: scale(1.12);
 				opacity: 0;
@@ -133,7 +133,7 @@
 		<script type="text/javascript" src="cegpa_info_modal.js">
 		</script>
 
-		<!-- Écran d'accueil CeGPA (Fond marron 75% + Logo centré) -->
+		<!-- Ã‰cran d'accueil CeGPA (Fond marron 75% + Logo centrÃ©) -->
 		<div id="splash-screen" title="Cliquer pour entrer dans la visite">
 			<img id="splash-logo" src="images/image_2.png" onerror="this.src='images/image_1.png'" alt="Logo CeGPA-UAC" />
 		</div>
@@ -201,7 +201,7 @@
 				var splash = document.getElementById("splash-screen");
 				if (splash) {
 					var closeSplash = function() {
-						// Débloquer l'audio pour les navigateurs
+						// DÃ©bloquer l'audio pour les navigateurs
 						try {
 							if (window.AudioContext || window.webkitAudioContext) {
 								var AudioCtx = window.AudioContext || window.webkitAudioContext;
@@ -260,3 +260,4 @@
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
 	</body>
 </html>
+
