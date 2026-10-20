@@ -4,6 +4,12 @@ Visite virtuelle interactive à 360° du Centre de Gestion du Patrimoine Muséal
 
 ---
 
+## Démo en Ligne
+
+- **Lien direct vers la visite 360° :** [Explorer la visite virtuelle en direct](https://doriohkpn.github.io/Projets-XR/CeGPA-Visite-Virtuelle/index.html)
+
+---
+
 ## Présentation du Projet
 
 Ce projet propose une expérience immersive complète permettant d'explorer à distance les salles et expositions du musée CeGPA. Conçu pour le web et les dispositifs immersifs, il permet aux visiteurs de naviguer dans l'espace muséal et d'interagir avec les œuvres exposées.
@@ -27,9 +33,8 @@ Ce projet propose une expérience immersive complète permettant d'explorer à d
 
 ---
 
-## Lancement
+## Lancement en Local
 
-### En local :
 Pour des raisons de sécurité liées aux navigateurs modernes (politique CORS sur les fichiers locaux `file://`), lancez un serveur HTTP local dans ce dossier :
 
 ```bash
